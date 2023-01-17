@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background: url(img/fondo.jpg);
+    background-size: 100%;
+}
+
+a {   
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(23, 117, 105);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: rgb(208, 255, 0);
+    font-size: 25px;
+}
+
+.contenedor2 {
+    color: rgb(208, 255, 0);
+    text-align: center;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.redes {
+    float: right;
+}
+
+.copy {
+    color: white;
+}
+
+.pcgamer {
+    text-align: center; 
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+
+.pcoficina {
+    text-align: center; 
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+.pchogar {
+    text-align: center; 
+    padding-left: 100px; 
+    padding-right: 100px;
+}
