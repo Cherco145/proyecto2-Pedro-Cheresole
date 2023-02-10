@@ -50,6 +50,7 @@ nav a:hover {
     color: rgb(208, 255, 0);
     text-align: center;
 }
+    
 
 .imgs {
     display: flex;
@@ -83,6 +84,7 @@ nav a:hover {
     padding-left: 100px; 
     padding-right: 100px;
 }
+
 
 @media (max-width:700px){
     header{
