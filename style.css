@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    background-color: rgb(131, 218, 131);
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
     background-size: 100%;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 a {   
@@ -10,14 +24,7 @@ a {
     color: black;
 }
 
-header {
-    display: flex;
-    min-height: 70px;
-    background-color: rgb(56, 142, 223);
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
+
 
 .logo {
     display: flex;
@@ -29,25 +36,16 @@ header {
     margin-right: 5px;
 }
 
-nav a {
-    font-weight: 600;
-    padding-right: 5px;
-}
-
-nav a:hover {
-    color: white;
-}
-
 .contenedor {
     display: flex;
     justify-content: center;
     padding: 25px;
-    color: rgb(208, 255, 0);
+    color: rgb(7, 42, 243);
     font-size: 25px;
 }
 
 .contenedor2 {
-    color: rgb(208, 255, 0);
+    color: rgb(7, 42, 243);
     text-align: center;
 }
     
@@ -55,7 +53,7 @@ nav a:hover {
 .imgs {
     display: flex;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: black
 }
 
 .redes {
@@ -63,7 +61,7 @@ nav a:hover {
 }
 
 .copy {
-    color: white;
+    color: black
 }
 
 .pcgamer {
@@ -84,6 +82,7 @@ nav a:hover {
     padding-left: 100px; 
     padding-right: 100px;
 }
+
 
 
 @media (max-width:700px){
