@@ -1,97 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
-    background-size: 100%;
-    overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  background-size: 100%;
+  overflow-x: hidden;
 }
 
 #menu a {
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
 
 #menu button {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-a {   
-    text-decoration: none;
-    color: black;
-}
-
-
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 50px;
-    margin-right: 5px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .contenedor {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    color: rgb(7, 42, 243);
-    font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  color: rgb(7, 42, 243);
+  font-size: 25px;
 }
 
 .contenedor2 {
-    color: rgb(7, 42, 243);
-    text-align: center;
+  color: rgb(7, 42, 243);
+  text-align: center;
 }
-    
 
 .imgs {
-    display: flex;
-    justify-content: center;
-    color: black
+  display: flex;
+  justify-content: center;
+  color: black;
 }
 
 .redes {
-    float: right;
+  float: right;
 }
 
 .copy {
-    color: black
+  color: black;
 }
 
 .pcgamer {
-    text-align: center; 
-    padding-left: 100px; 
-    padding-right: 100px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-
 .pcoficina {
-    text-align: center; 
-    padding-left: 100px; 
-    padding-right: 100px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .pchogar {
-    text-align: center; 
-    padding-left: 100px; 
-    padding-right: 100px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
 }
 
 
-
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px 0px;
-    }
-}
-
-
+/*# sourceMappingURL=style.css.map */
