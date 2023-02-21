@@ -26,6 +26,7 @@ a {
   display: flex;
   justify-content: center;
   padding: 25px;
+  padding-right: 40px;
   color: rgb(7, 42, 243);
   font-size: 25px;
 }
@@ -75,6 +76,21 @@ a {
     padding: 10px 0px;
   }
 }
+
+@media(max-width: 768px) {
+  .imgs {
+      flex-direction: column;
+  }
+}
+
+@media(max-width: 768px) {
+  .contenedor {
+      flex-direction: column;
+  }
+}
+
+
+
 
 
 /*# sourceMappingURL=style.css.map */
