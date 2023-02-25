@@ -1,11 +1,33 @@
+.titulo8 {
+  text-align: center;
+  font-style: italic;
+  color: #1f53c5;
+  text-decoration: underline;
+  margin-bottom: 30px; }
+
+.div8 {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.mapa {
+  display: flex;
+  width: 2000px;
+  height: 400px; }
+
+.parrafito2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: #1f53c5; }
+
 .h1 {
   text-align: center;
   color: blue; }
 
 #video, video {
   margin: 0 auto;
-  width: 600px;
-  height: 400px; }
+  width: 480px;
+  height: 300px; }
 
 #menu a {
   font-size: 18px;
@@ -184,11 +206,17 @@ a {
   .form-register .parrafo {
     height: 40px;
     text-align: center;
-    font-size: 18px;
-    line-height: 40px; }
-  .form-register .acceso {
+    line-height: 40px;
+    background-color: #24303c;
     color: white;
-    text-decoration: none; }
+    font-size: 18px;
+    padding-left: 0px; }
+  .form-register .acceso {
+    text-decoration: none;
+    background-color: #24303c;
+    color: white;
+    font-size: 18px;
+    padding-left: 110px; }
     .form-register .acceso:hover {
       color: white;
       text-decoration: underline; }
@@ -217,13 +245,19 @@ a {
     font-size: 16px; }
     .container .boton:hover {
       background-color: transparent;
-      border: 2px solid #5fb2ff;
-      color: #5fb2ff; }
+      border: 2px solid #55a8fd;
+      color: #55a8fd; }
 
 .copy3 {
   padding-top: 70px; }
   .copy3 .redes3 {
     float: right; }
+
+.div5 {
+  display: flex;
+  justify-content: center; }
+  .div5 .logo7 {
+    width: 250px; }
 
 @media (max-width: 700px) {
   header {

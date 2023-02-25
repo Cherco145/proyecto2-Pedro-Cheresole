@@ -3,16 +3,19 @@
 @import "computadoras";
 @import "serviciotecnico";
 
-$colorPrincipal: red;
+$colorPrincipal: rgb(228, 214, 188);
+$colorSecundario: #1f53c5;
+$colorTerciario: #55a8fd;
+$padding: 20px;
 
 #menu a {
-    font-size: 18px;
+    font-size: 9px * 2;
     font-weight: bold;
     color: black;
   }
 
 #menu button {
-    font-size: 18px;
+    font-size: 9px * 2;
     font-weight: bold;
   }
 
@@ -72,15 +75,15 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
     .contenido {
-        background: rgb(228, 214, 188);
-        padding: 20px;
+        background: $colorPrincipal;
+        padding: $padding;
         border-radius: 4px;
         grid-column: span 2;
         font-size: larger;
         }
         .footer {
-            background: rgb(228, 214, 188);
-            padding: 20px;
+            background: $colorPrincipal;
+            padding: $padding;
             border-radius: 4px;
             .redes1 {
                 margin: 20px;
@@ -88,8 +91,8 @@ a {
             }
         }
         .sidebar {
-            background: rgb(228, 214, 188);
-            padding: 20px;
+            background: $colorPrincipal;
+            padding: $padding;
             border-radius: 4px;
             grid-column: 3 / 4;
             text-align: center;
@@ -100,8 +103,8 @@ a {
             grid-row: span	2;
         }
         .header {
-            background: rgb(228, 214, 188);
-            padding: 20px;
+            background: $colorPrincipal;
+            padding: $padding;
             border-radius: 4px;
             color: black;
             grid-column-start: 1;
@@ -113,15 +116,15 @@ a {
             }
         }
         .contenido1 {
-            background: rgb(228, 214, 188);
-            padding: 20px;
+            background: $colorPrincipal;
+            padding: $padding;
             border-radius: 4px;
             .imgs1 {
                 width: 200px;
             }
         }
         .widget-1 {
-            background: #55a8fd;
+            background: $colorTerciario;
             color: white;
             height: 100px;
             text-align: center;
@@ -130,7 +133,7 @@ a {
             justify-content: center;
         }
         .widget-2 {
-            background: #55a8fd;
+            background: $colorTerciario;
             color: white;
             height: 100px;
             text-align: center;
@@ -139,7 +142,7 @@ a {
             justify-content: center;
         }
         .footer {
-            background: rgb(228, 214, 188);
+            background: $colorPrincipal;
             color: white;
             grid-column: span 3;
         }
@@ -206,30 +209,38 @@ a {
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid #1f53c5;
+        border: 1px solid $colorSecundario;
         font-family: 'calibri';
         font-size: 18px;
         color: white;
       }
+
+      @mixin color-invertido ($fondo,$color,$size,$left){
+        background-color: $fondo;
+        color: $color;
+        font-size: $size;
+        padding-left: $left;
+      }
+
       .parrafo {
         height: 40px;
         text-align: center;
-        font-size: 18px;
         line-height: 40px;
-      }
+        @include color-invertido(#24303c, white, 18px, 0px)
+      } 
 
       .acceso {
-        color: white;
         text-decoration: none;
         &:hover{
             color: white;
             text-decoration: underline;
           }
+          @include color-invertido(#24303c, white, 18px, 110px)
       }
 
       .botons {
         width: 100%;
-        background: #1f53c5;
+        background: $colorSecundario;
         border: none;
         padding: 12px;
         color: white;
@@ -246,7 +257,7 @@ a {
     text-align: center;
     justify-content: center;
     width: 100%;
-    background: #1f53c5;
+    background: $colorSecundario;
     border: none;
     padding: 12px;
     color: white;
@@ -254,8 +265,8 @@ a {
     font-size: 16px;
     &:hover{
         background-color: transparent;
-        border: 2px solid rgb(95, 178, 255);
-        color: rgb(95, 178, 255);
+        border: 2px solid $colorTerciario;
+        color: $colorTerciario;
     }
 }
 }
@@ -265,6 +276,14 @@ a {
     .redes3{
         float: right;
     }
+}
+
+.div5{
+  display: flex;
+  justify-content: center;
+  .logo7{
+      width: 250px;
+  }
 }
 
 @media (max-width: 700px) {
