@@ -12,20 +12,4 @@ body {
     font-size: larger;
 }
 
-a {
-    display: block;
-    width: 40px;
-    font-weight: 800;
-    background-color: rgb(42, 125, 219);
-    border-radius: 50px;
-    padding: 15px 40px;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: transparent;
-    border: 2px solid rgb(91, 91, 172);
-    color: blue;
-}
 

@@ -1,0 +1,256 @@
+.h1 {
+  text-align: center;
+  color: blue; }
+
+#video, video {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px; }
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  color: black; }
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  padding-right: 40px;
+  color: #072af3;
+  font-size: 25px; }
+
+.contenedor2 {
+  color: #072af3;
+  text-align: center; }
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  color: black; }
+  .imgs .pcgamer {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px; }
+  .imgs .pcoficina {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px; }
+  .imgs .pchogar {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px; }
+
+.copy {
+  color: black; }
+  .copy .redes {
+    float: right; }
+
+.contenedor1 {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto); }
+  .contenedor1 .contenido {
+    background: #e4d6bc;
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: span 2;
+    font-size: larger; }
+  .contenedor1 .footer {
+    background: #e4d6bc;
+    padding: 20px;
+    border-radius: 4px; }
+    .contenedor1 .footer .redes1 {
+      margin: 20px;
+      width: 50px; }
+  .contenedor1 .sidebar {
+    background: #e4d6bc;
+    padding: 20px;
+    border-radius: 4px;
+    grid-column: 3 / 4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    grid-row: span	2; }
+  .contenedor1 .header {
+    background: #e4d6bc;
+    padding: 20px;
+    border-radius: 4px;
+    color: black;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    font-size: x-large; }
+    .contenedor1 .header .logo {
+      width: 200px; }
+  .contenedor1 .contenido1 {
+    background: #e4d6bc;
+    padding: 20px;
+    border-radius: 4px; }
+    .contenedor1 .contenido1 .imgs1 {
+      width: 200px; }
+  .contenedor1 .widget-1 {
+    background: #55a8fd;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .contenedor1 .widget-2 {
+    background: #55a8fd;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .contenedor1 .footer {
+    background: #e4d6bc;
+    color: white;
+    grid-column: span 3; }
+
+.personas {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .personas .div1 {
+    padding: 30px 30px; }
+  .personas .h2 {
+    color: #1000f1;
+    font-size: 27px;
+    margin: 15px 0px; }
+  .personas .limpia {
+    width: 400px;
+    height: 280px;
+    border-radius: 100%; }
+  .personas .mantenimiento {
+    width: 400px;
+    height: 280px;
+    border-radius: 100%;
+    margin-top: 25px; }
+  .personas .boton-saber-mas {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 3px solid #4700ec;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    font-size: large; }
+    .personas .boton-saber-mas:hover {
+      background: #4700ec;
+      color: white; }
+
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+  .form-register .h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .form-register .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white; }
+  .form-register .parrafo {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+  .form-register .acceso {
+    color: white;
+    text-decoration: none; }
+    .form-register .acceso:hover {
+      color: white;
+      text-decoration: underline; }
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px; }
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px; }
+  .container .boton {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 0 auto;
+    font-size: 16px; }
+    .container .boton:hover {
+      background-color: transparent;
+      border: 2px solid #5fb2ff;
+      color: #5fb2ff; }
+
+.copy3 {
+  padding-top: 70px; }
+  .copy3 .redes3 {
+    float: right; }
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 10px 0px; } }
+
+@media (max-width: 768px) {
+  .imgs {
+    flex-direction: column; } }
+
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline; } }
+
+@media screen and (max-width: 768px) {
+  .contenedor1 .contenido {
+    grid-column: 1 / -1; }
+  .contenedor1 .sidebar {
+    grid-column: 1 / -1; }
+  .contenedor1 .widget-1 {
+    grid-column: span 2; }
+  .contenedor1 .widget-2 {
+    grid-column: span 2; } }
+
+@media (max-width: 768px) {
+  .personas {
+    flex-direction: column; } }
